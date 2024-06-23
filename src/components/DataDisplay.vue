@@ -1,6 +1,6 @@
 <template>
   <div v-if="data">
-    <div v-for="(value, key) in data" :key="key">
+    <div v-for="(value, key) in data" :key="key" class="standard-text">
       <strong>{{ key.charAt(0).toUpperCase() + key.slice(1) }}:</strong> {{ value }}
     </div>
   </div>

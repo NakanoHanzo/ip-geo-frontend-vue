@@ -7,7 +7,7 @@ import FormCard from './components/FormCard.vue'
   <form-card></form-card>
 </template>
 
-<style scoped>
+<style >
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -19,5 +19,8 @@ import FormCard from './components/FormCard.vue'
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+.standard-text {
+  font-size: 24.6167px;
 }
 </style>
